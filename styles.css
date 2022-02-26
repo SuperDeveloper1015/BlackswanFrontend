@@ -1,0 +1,8 @@
+body {
+  heigt : 100%;
+  font-family: sans-serif;
+}
+html, body, #__next {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#dots {
+  display: inline-block;
+  animation: ellipsis 1.25s infinite;
+  content: '.';
+  width: 1em;
+  text-align: left;
+
+  @keyframes ellipsis {
+    0% {
+      content: '.';
+    }
+    33% {
+      content: '..';
+    }
+    66% {
+      content: '...';
+    }
+  }
+}
+
+.max-button {
+  position: relative !important;
+  right: -43% !important;
+  margin-top: -60px !important;
+  border-radius: 10px !important;
+}
